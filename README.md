@@ -1,2 +1,36 @@
-# SrTowny
-Advanced Towny &amp; SiegeWar Core Architecture Engine with Modernized Combat, Economy &amp; Administration
+<div align="center">
+
+# 🏰 SrTowny
+### Next-Gen Server Core, Advanced Towny & SiegeWar Architecture Engine
+
+[![Java 21](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![PaperMC](https://img.shields.io/badge/PaperMC-1.21.x-1F8CEB?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
+[![Version](https://img.shields.io/badge/Version-1.0.0-38BDF8?style=for-the-badge)](https://github.com/croxln/SrTowny)
+[![Status](https://img.shields.io/badge/Status-🟢_Active_Production-4ADE80?style=for-the-badge)](https://github.com/croxln/SrTowny)
+[![License](https://img.shields.io/badge/License-Proprietary-EF4444?style=for-the-badge)](https://github.com/croxln/SrTowny)
+
+<p align="center">
+  <b>SrTowny</b> is an enterprise fork of Towny Advanced and SiegeWar, engineered specifically for high-concurrency competitive multiplayer servers.<br>
+  Featuring thread-safe nation warfare, Hall of Fame NPC integrations, modern tax calculation models, and seamless plugin interoperability.
+</p>
+
+</div>
+
+---
+
+### 🌟 Architectural Pillars
+
+- **⚔️ Hardened SiegeWar Engine:** Re-architected combat zones with exploit-free banner mechanics, anti-farm cooldowns, and grief-protected war sites.
+- **🏆 Hall of Fame Integration:** Citizens interact with monthly Hall of Fame NPCs featuring async debounced right-click listeners, ranking boards, and prestige rewards.
+- **🛡️ Peace Shield & War Schedules:** Automated weekly siege windows allowing towns to organize tactical defense and scheduled alliances.
+- **🎨 Modern MiniMessage Aesthetic:** 100% legacy color code purged. Formatted exclusively with Adventure MiniMessage, rich hex palettes, and smooth solid dividers.
+- **⚡ High-Throughput Database Operations:** Async query processing for town blocks, resident data, and national treaties.
+
+---
+
+> [!IMPORTANT]
+> **Source Code Notice:** This repository serves as a public architectural showcase, changelog, and issue tracker for the **SrProjects** suite. The core source code is proprietary and closed-source.
+
+<div align="center">
+<sub>Engineered by <b>-Serhat (croxln)</b> • Part of the SrProjects Suite</sub>
+</div>

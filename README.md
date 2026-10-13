@@ -7,6 +7,7 @@
 [![PaperMC](https://img.shields.io/badge/PaperMC-1.21.x-1F8CEB?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-38BDF8?style=for-the-badge)](https://github.com/croxln/SrTowny)
 [![Status](https://img.shields.io/badge/Status-🟢_Active_Production-4ADE80?style=for-the-badge)](https://github.com/croxln/SrTowny)
+[![Stars](https://img.shields.io/github/stars/croxln/SrTowny?style=for-the-badge&color=FACC15&logo=github)](https://github.com/croxln/SrTowny/stargazers)
 [![License](https://img.shields.io/badge/License-Proprietary-EF4444?style=for-the-badge)](https://github.com/croxln/SrTowny)
 
 <p align="center">
@@ -25,6 +26,16 @@
 - **🛡️ Peace Shield & War Schedules:** Automated weekly siege windows allowing towns to organize tactical defense and scheduled alliances.
 - **🎨 Modern MiniMessage Aesthetic:** 100% legacy color code purged. Formatted exclusively with Adventure MiniMessage, rich hex palettes, and smooth solid dividers.
 - **⚡ High-Throughput Database Operations:** Async query processing for town blocks, resident data, and national treaties.
+
+---
+
+### 📈 Repository Star History
+
+<div align="center">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=croxln/SrTowny&type=Date&theme=dark)](https://star-history.com/#croxln/SrTowny&Date)
+
+</div>
 
 ---
 

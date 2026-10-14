@@ -11,22 +11,23 @@
 [![License](https://img.shields.io/badge/License-Proprietary-EF4444?style=for-the-badge)](https://github.com/croxln/SrTowny)
 
 <p align="center">
-  <b>SrTowny</b> is an enterprise fork of Towny Advanced and SiegeWar, engineered specifically for high-concurrency competitive multiplayer servers.<br>
-  Featuring thread-safe nation warfare, Hall of Fame NPC integrations, modern tax calculation models, and seamless plugin interoperability.
+  <b>SrTowny</b> is an enterprise fork of Towny Advanced and SiegeWar, engineered specifically for high-concurrency competitive multiplayer networks.<br>
+  Featuring thread-safe nation warfare, specialized military command structures, modern tax calculation models, and seamless plugin interoperability.
 </p>
 
 </div>
 
 ---
 
-### 🌟 Architectural Pillars
+### 🌟 Core Architectural Pillars
 
-- **⚔️ Hardened SiegeWar Engine:** Re-architected combat zones with exploit-free banner mechanics, anti-farm cooldowns, and grief-protected war sites.
-- **🎖️ SrKomutan (Rise of Kingdoms Military Engine):** 6-tier matrix (Common to Mythic), secret commander mechanics, League of Legends inspired particle warfare (hemorrhage stacking, stun cages, rays), and subtle player scale dynamics.
-- **🧭 SrOgretici (Interactive Onboarding Engine):** 7-step guided journey, real-time Adventure BossBar tracking, automated town progression verification, and isolated module lifecycle management.
-- **🛡️ Town Safety & Anti-Trap Systems:** Asynchronous memory-safe chunk trap auditor and post-teleport invulnerability shields preventing spawn exploitation.
-- **🏆 Hall of Fame Integration:** Citizens interact with monthly Hall of Fame NPCs featuring async debounced right-click listeners, ranking boards, and prestige rewards.
-- **🎨 Modern MiniMessage Aesthetic:** 100% legacy color code purged. Formatted exclusively with Adventure MiniMessage, rich hex palettes, and smooth solid dividers.
+- **⚔️ Hardened SiegeWar Engine:** Re-architected combat zones with anti-exploit banner mechanics, anti-farm cooldowns, and grief-protected war sites.
+- **🎖️ SrKomutan Military Engine:** Multi-tiered commander progression, tactical combat synergies, dynamic visual effects, and customized player attribute scaling.
+- **🧭 SrOgretici Onboarding Engine:** Milestone-based interactive progression system with real-time Adventure BossBar tracking and lifecycle isolation.
+- **🛡️ Municipal Security & Anti-Trap Safeguards:** Asynchronous spatial integrity verifiers and post-teleport protection layers preventing spawn exploitation.
+- **🏛️ Town Governance & Progression:** Automated progressive taxation models, succession protocols, and specialized municipal structures.
+- **🏆 Hall of Fame Integration:** Competitive monuments, async-debounced NPC interactions, and monthly prestige recognition.
+- **🎨 Modern MiniMessage Aesthetic:** 100% legacy color code purged. Formatted exclusively with Adventure MiniMessage, rich hex gradients, and smooth solid dividers.
 - **⚡ High-Throughput Database Operations:** Async query processing for town blocks, resident data, and national treaties.
 
 ---
@@ -37,10 +38,10 @@ SrTowny operates on an isolated plugin-in-plugin module architecture (`AbstractS
 
 | Module | Identifier | Description | Status |
 | :--- | :--- | :--- | :--- |
-| **SrOgretici** | `srogretici` | 7-step interactive town onboarding journey with live BossBar tracking | `ACTIVE` |
-| **SrKomutan** | `srkomutan` | RoK-inspired commander collection, talent progression & particle combat | `ACTIVE` |
+| **SrOgretici** | `srogretici` | Milestone-based interactive player onboarding journey with live HUD tracking | `ACTIVE` |
+| **SrKomutan** | `srkomutan` | Multi-tier tactical commander collection, talent progression & combat visuals | `ACTIVE` |
 | **Kasaba Baskını** | `kasaba_baskini` | PvE raid wave encounters with custom AI pathfinders and boss mechanics | `ACTIVE` |
-| **Kasaba Events** | `kasaba_events` | Dynamic seasonal and server-wide town competitive events | `ACTIVE` |
+| **Kasaba Events** | `kasaba_events` | Dynamic seasonal and server-wide municipal competitive events | `ACTIVE` |
 | **SrKervan** | `srkervan` | Scheduled high-stakes cross-server caravan escort & plunder gameplay | `ACTIVE` |
 | **Town Governor** | `governor` | Town succession inheritance, emergency tax calls & progressive taxation | `ACTIVE` |
 | **Hall of Fame** | `hall_of_fame` | Monthly prestige ranking monuments and NPC interactions | `ACTIVE` |

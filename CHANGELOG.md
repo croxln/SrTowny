@@ -7,32 +7,26 @@ All notable architectural updates and feature additions to **SrTowny** are docum
 ## [1.1.0] - 2026-10-14
 
 ### 🚀 Added
-- **SrOgretici (Onboarding Engine Module):**
-  - Integrated 7-stage interactive beginner tutorial (`/ogretici`, `/srogretici`, `/rehber`).
-  - Real-time Adventure BossBar tracking with step progress and sound/particle celebrations.
-  - Multi-path town progression: Town creation, specialization selection (mine vein prospecting), town bank deposit checks, claim verification, town hall construction, and daily routine hooks (`/rankup`, `/gunlukodul`).
-  - Exploit prevention: One-time reward verification, skip tracking, and zero rewards on skipped journeys.
-  - Dedicated isolated module architecture (`AbstractSrTownyModule`) with hot-reloading and automatic BossBar cleanup.
-- **SrKomutan 2.0 (Rise of Kingdoms Overhaul):**
-  - Expanded 6-Tier Commander Matrix (Sıradan, Sıradışı, Ender, Destansı, Efsanevi, Mitik).
-  - Secret Mythic Commander: **Ressam (???)** with server-wide lightning strike sound effects and 5-second bossbar broadcast upon unboxing.
-  - League of Legends inspired dynamic combat VFX:
-    - Darius hemorrhage bleed mechanic: Stacking orbital blood particles around targets with increasing severity.
-    - Veigar event horizon stun cage particle circle.
-    - Vel'Koz disintegration beam particle effect.
-    - Rotating square aura ambient particle effects engineered for competitive PvP clarity.
-  - Dynamic subtle player scale attributes: Light speed buffs/size adjustments for nimble commanders, subtle scale increase and speed adjustments for heavy tanks.
-  - Compact large currency formatter (`K`, `M`, `B`) for scoreboards and bossbars.
-- **Town Safety & Teleport Protections:**
-  - Automated asynchronous memory-safe chunk trap auditor (`TownSpawnTrapAuditTask`) protecting against elevated void/hole traps.
-  - Post-teleport invulnerability guard (`TownTeleportProtectionListener`) preventing spawn-kill camping.
+- **SrOgretici (Interactive Onboarding Engine):**
+  - Integrated multi-stage guided journey with real-time Adventure BossBar tracking.
+  - Multi-path municipal progression: Town discovery, founding/joining, financial routines, claim milestone audits, and routine hooks.
+  - Anti-abuse verification: Guaranteed single-redemption validation and skip controls.
+  - Fully isolated modular architecture (`AbstractSrTownyModule`) with hot-reloading and automatic state cleanup.
+- **SrKomutan 2.0 (Military Engine Overhaul):**
+  - Expanded multi-tier commander progression system.
+  - Dynamic tactical combat VFX: Custom status effect tracking particles, area-of-effect visual rings, and ambient aura effects engineered for PvP clarity.
+  - Subtle attribute scaling: Nuanced movement velocity and physical scale adjustments tuned for competitive balance.
+  - Metric compact currency formatting for scoreboards, announcements, and HUDs.
+- **Town Security & Teleport Safeguards:**
+  - Automated asynchronous memory-safe chunk trap auditor preventing high-elevation void/pit hazards.
+  - Arrival invulnerability guard preventing spawn camping and ambush griefing.
 
 ### 🔄 Changed
-- Renamed onboarding system to **SrOgretici** with isolated storage in `plugins/SrTowny/modules/SrOgretici/`.
-- Standardized UI divider formatting to solid strikethrough aesthetics (`<st><dark_gray>                        </dark_gray></st>`).
-- Enforced strict SmallCaps and warm gradient typography across all module GUI menus and announcements.
+- Renamed and decoupled the onboarding system to **SrOgretici** with isolated module storage.
+- Standardized UI divider formatting across all interfaces to smooth, unbroken solid lines.
+- Enforced unified SmallCaps and warm gradient typography across announcements and menus.
 
 ### 🛡️ Security & Performance
-- Fixed duplicate event listener registration in SrTowny core.
-- Added automatic listener and task dereferencing on module disable/reload.
-- Prevented siege war evading during scheduled blackout windows.
+- Resolved event listener duplication in core subsystems.
+- Implemented automated task and listener dereferencing on module lifecycle transitions.
+- Hardened siege combat evasion guards during blackout windows.
